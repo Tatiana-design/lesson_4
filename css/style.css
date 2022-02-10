@@ -1,0 +1,267 @@
+/* &display=swap */
+
+@import "null.css";
+@font-face {
+    font-family: "DeeDee";
+    src: url("../fonts/DeeDeeLight.woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ProximaNova-ThinIt";
+    src: url("../fonts/ProximaNova-ThinIt.woff");
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr-Thin";
+    src: url("../fonts/HelveticaNeueCyr-Thin.woff");
+    font-weight: 100;
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+    font-size: 20px;
+    font-family: "Genos-Thin";
+}
+
+.title {
+    color: green;
+    font-size: 65px;
+    font-family: 'Amatic SC', cursive, 'Arial', sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.text {
+    text-align: center;
+    color: #f03e3e;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'DeeDee', 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quotes {
+    font-family: 'ProximaNova-ThinIt', 'Arial', sans-serif;
+    color: rgba(236, 81, 241, 0.714);
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 40px;
+    text-shadow: 10px 10px 30px rgb(254, 123, 212), 5px 2px 10px rgb(10, 3, 3);
+}
+
+.review {
+    font-family: 'HelveticaNeueCyr-Thin', 'Arial', sans-serif;
+    color: rgba(81, 241, 81, 0.92);
+    font-size: 30px;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.stars {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+ul.list>li {
+    color: red;
+}
+
+.link {
+    color: red;
+    padding-left: 40%;
+}
+
+.block {
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+/*@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");*/
+
+
+/* ================ Свойства шрифта (Наследуются потомками) ==================== */
+
+
+/*
+font-family: "Имя шрифта", "Имя шрифта", ...,  тип шрифта
+Устанавливает семейство шрифта
+
+Если название шрифта состоит из 2х и более слов
+заключаем название в кавычки
+
+Типы шрифта:
+serif — шрифты с засечками (антиквенные), типа Times;
+sans-serif — рубленные шрифты (шрифты без засечек или гротески), 
+типичный представитель — Arial;
+cursive — курсивные шрифты;
+fantasy — декоративные шрифты;
+monospace — моноширинные шрифты, ширина каждого символа 
+в таком семействе одинакова (шрифт Courier).
+*/
+
+
+/*
+font-size
+Определяет размер шрифта элемента.
+По умолчанию 16px
+*/
+
+
+/*
+font-style:
+Определяет начертание шрифта — обычное, курсивное или наклонное.
+normal - Обычное начертание текста.
+italic - Курсивное начертание. 
+oblique - Наклонное начертание. Курсив и наклонный 
+шрифт при всей их похожести не одно и то же. 
+Курсив это специальный шрифт имитирующий рукописный, 
+наклонный же образуется путем наклона обычных знаков вправо. 
+*/
+
+
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - Light
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+
+/* =================== Свойства текста ===================================== */
+
+
+/*
+color (наследуется)
+Определяет цвет текста. Для задания цветов обычно 
+используются числа в шестнадцатеричном коде, 
+либо с помощью RGB.
+*/
+
+
+/*
+text-align (наследуется)
+Определяет горизонтальное выравнивание текста и строчный объектов
+ в пределах элемента. 
+center - Выравнивание текста по центру.
+justify - Выравнивание по ширине, что означает 
+одновременное выравнивание по левому и правому краю. 
+Чтобы произвести это действие браузер в этом случае 
+добавляет пробелы между словами.
+left - Выравнивание текста по левому краю. 
+right - Выравнивание текста по правому краю.
+*/
+
+
+/*
+text-decoration (наследуется)
+Добавляет оформление текста в виде его подчеркивания, 
+перечеркивания, линии над текстом и мигания. 
+Одновременно можно применить более одного стиля, перечисляя значения через пробел. Это свойство наследуется и может принимать значения:
+line-through - Создает перечеркнутый текст.
+overline - Линия проходит над текстом.
+underline - Устанавливает подчеркнутый текст. 
+none - Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.
+*/
+
+
+/*
+
+text-shadow: горизонтальное_смещение вертикальное_смещение размер цвет;
+(наследуется)
+Добавляет тень к тексту.
+Прмер text-shadow: 1px 1px 1px #000;
+*/
+
+
+/* text-shadow: 10px 10px 30px rgb(202, 17, 17), 5px 2px 10px rgb(10, 3, 3); */
+
+
+/*
+
+text-transform (наследуется)
+Управляет преобразованием текста в заглавные или прописные символы.
+capitalize  - Первый символ каждого слова в предложении будет заглавным. Остальные символы свой вид не меняют.
+lowercase - Все символы текста становятся строчными (нижний регистр). 
+uppercase - Все символы текста становятся прописными (верхний регистр).
+none - Не меняет регистр символов.
+*/
+
+
+/* text-decoration: line-through; */
+
+
+/* text-transform: uppercase; */
+
+
+/*
+line-height (наследуется)
+Устанавливает межстрочный интервал текста. 
+Широко применяется при верстке текста.
+*/
+
+
+/* 
+Если в макете указаны px делим это значение 
+на размер шрифта этого объекта и указываем через точку без единиц
+*/
+
+
+/* line-height: 1.5; */
+
+
+/*
+text-indent
+Устанавливает величину отступа первой строки блока текста. При меняется, если нам нужно создать что-то типа красной строки.
+
+letter-spacing
+Определяет интервал между символами (буквами). Используется когда нужно разрядить текст.
+
+white-space
+Управляет свойствами пробелов между словами. Пименяется в основном со значением 
+nowrap которое запрещает перенос строки. Таким образом весь текст отображается в одну строку и не ломается. Значение normal вернет все как было.
+
+word-spacing
+Устанавливает интервал между словами.
+*/
+
+
+/* text-indent: 25px; */
+
+
+/* letter-spacing: 10px; */
+
+
+/* word-spacing: 20px; */
+
+
+/* white-space: nowrap; */
+
+ul.list>li {
+    color: red;
+}
+
+.link {
+    color: red;
+}
